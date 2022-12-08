@@ -7,6 +7,7 @@ ruby "3.1.3"
 gem "rails", "~> 7.0.4"
 gem "bundler-audit"
 gem "brakeman"
+gem "rubocop"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
