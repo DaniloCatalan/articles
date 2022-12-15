@@ -2,9 +2,10 @@ AllCops:
   NewCops: enable
   SuggestExtensions: false
   Exclude:
-  - "bin/**/*"
-  - "spec/rails_helper.rb"
-  - "config/environments/production.rb"
+    - "vendor/bundle/**/*"
+    - "bin/**/*"
+    - "spec/rails_helper.rb"
+    - "config/environments/production.rb"
 Metrics/BlockLength:
   Exclude:
     - 'Rakefile'
