@@ -1,7 +1,8 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 
 RSpec.describe User, type: :model do
-  
   describe 'A valid instance' do
     before(:each) do
       @user = User.new
